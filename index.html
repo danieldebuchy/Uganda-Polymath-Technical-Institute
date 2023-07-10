@@ -67,9 +67,6 @@
               <a class="nav-link" href="#programs">Programs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -104,6 +101,7 @@
       </div>
     </section>
 
+    <div class="hate">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -122,11 +120,12 @@
         </div>
       </div>
     </div>
+    </div>
 
     <div class="row outer-div2" id="about">
       <div class="col-md-5 inner-div2 text-div2">
         <div>
-          <h4>About</h4>
+          <h4>About Us</h4>
           <h5>Who we are</h5>
           <p>
             Since being established in 2021, Uganda Polymath Technical Institute
@@ -149,6 +148,7 @@
       </div>
     </div>
 
+    <div class="hate">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -167,13 +167,14 @@
         </div>
       </div>
     </div>
+    </div>
 
     <section class="cards-wrapper" id="programs">
       <div class="card-grid-space">
         <div class="num">01</div>
         <a
           class="card"
-          href="https://codetheweb.blog/"
+          href="/programming.html"
           style="
             --bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg);
           "
@@ -192,7 +193,7 @@
         <div class="num">02</div>
         <a
           class="card"
-          href="https://www.udemy.com/course/online-business-course/?referralCode=174673FDE57E98A0FA23&gclid=Cj0KCQjw7uSkBhDGARIsAMCZNJs9T2lF9YjeynxKnejD6hJ2k7G26PSvGLfHV8dDTnUqdAzdHT3bHRAaAtaEEALw_wcB"
+          href="/business.html"
           style="
             --bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg');
           "
@@ -211,7 +212,7 @@
         <div class="num">03</div>
         <a
           class="card"
-          href="https://learnthebibleinayear.com/?gad=1&gclid=Cj0KCQjw7uSkBhDGARIsAMCZNJuLbbZGkE62BgV6Zo0ESvAEhNUhYw76p5FP_JJmPV8KNBVTDEFyWV8aAvOJEALw_wcB"
+          href="/theology.html"
           style="
             --bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg');
           "
@@ -264,7 +265,7 @@
           <h2 class="haulah-h2">Join Us</h2>
           <p>
             You can register on this website online or
-            <a href="#contact">contact us</a>.
+            <a href="#contact">contact us</a>
           </p>
           <img
             src="https://assets.codepen.io/2301174/icon-team-builder.svg"
@@ -276,9 +277,12 @@
         <div class="box box-down blue">
           <h2 class="haulah-h2">Tell Us</h2>
           <p>
-            +256700123578 <br />
-            +256751414324 <br />
-            +256701567245
+            E-mail us: <br>
+            on, <br> 
+            <strong>
+              upti.learn@gmail.com
+            </strong>
+            
           </p>
           <img
             src="/png/icons8-phone-bubble-64.png"
@@ -320,6 +324,7 @@
         </div>
       </div>
     </div>
+  
 
     <div class="background" id="contact">
       <div class="container3">
@@ -373,7 +378,7 @@
                   </div>
                   <div class="app-form-group buttons">
                     <button class="app-form-button">CANCEL</button>
-                    <button class="app-form-button" type="submit">SEND</button>
+                    <button class="app-form-button"  type="submit"  id="submit" onclick="submitForm()">SEND</button>
                   </div>
                 </div>
               </div>
@@ -402,7 +407,7 @@
       </div>
     </div>
 
-    <div class="main4">
+    <div class="main4" id="languages">
       <ul class="cards4">
         <li class="cards_item4">
           <div class="card4">
@@ -505,79 +510,40 @@
       </ul>
     </div>
 
-    <footer class="myfooter">
-      <div class="footer-distributed">
-        <div class="row">
-          <div class="col-md-3 footer-left">
-            <a href="#home">
-              <img
-                src="/png/Logo UPTI white.png"
-                alt=""
-                style="width: 46%; height: auto"
-              />
-            </a>
-            <p class="footer-links" style="font-family: monospace">
-              <a href="#" class="link-1">Home</a>
-              <a href="#about">About</a>
-              <a href="#programs">Programs</a>
-              <a href="#team">Team</a>
-              <a href="#contact">Contact</a>
-            </p>
-            <p
-              class="footer-company-name"
-              style="font-family: monospace; color: white"
-            >
-              Uganda Polymath Technical Institute © 2023
-            </p>
-          </div>
-
-          <div class="col-md-4 footer-center">
-            <div class="d-md-flex flex-md-column align-items-md-center">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p style="font-family: monospace">
-                  <span>UG. Kampala</span> Maganjo, Kagoma
-                </p>
-              </div>
-              <div>
-                <i class="fa fa-phone"></i>
-                <p style="font-family: monospace">+256-700-123-578</p>
-              </div>
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p style="font-family: monospace">
-                  <a href="mailto:support@company.com">upti@gmail.com</a>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 footer-right">
-            <div
-              class="footer-icons d-md-flex flex-md-column align-items-md-center"
-            >
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
-            </div>
-          </div>
+      <div class="myfooter">
+      <a href="#home"><img class="logo" src="/png/Logo UPTI white.png" alt="Logo"></a>
+        <div class="links">
+          <a href="#about">About</a>
+          <div class="vl"></div>
+          <a href="#programs">Programs</a>
+          <div class="vl"></div>
+          <a href="#contact">Contact</a>
+          <div class="vl"></div>
+          <a href="#languages">languages</a>
+        </div>
+        <!-- <div style="color: white;">
+          <p>Kagoma-Maganjo</p>
+        </div>
+        <div style="color: white;">
+          <p>@UPTI</p>
+        </div> -->
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+         <a href="https://twitter.com/learn_upti"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/upti_2022/"><i class="fab fa-instagram"></i></a>
+          <a href="https://ug.linkedin.com/in/learn-upti"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
-    </footer>
+      <div class="footer"  style="color: white;font-size: 10px;">
+        <p>Copyright ©2023 All rights reserved</p>
+      </div>
 
-    <script>
-      const signUpButton = document.getElementById("signUp");
-      const signInButton = document.getElementById("signIn");
-      const container = document.getElementById("container");
-
-      signUpButton.addEventListener("click", () => {
-        container.classList.add("right-panel-active");
-      });
-
-      signInButton.addEventListener("click", () => {
-        container.classList.remove("right-panel-active");
-      });
+  
+      <script>
+        function submitForm() {
+        document.contact-form.submit();
+        document.contact-form.reset();
+        }
     </script>
   </body>
 </html>
